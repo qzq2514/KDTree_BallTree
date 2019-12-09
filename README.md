@@ -16,7 +16,7 @@ This dataset has 4898 samples from 10 quality level.Each sample has 12 attribute
 | Type | Construction time(s) | time(s)/search |compare times/search|MSE|
 | - | :-: |:-: |:-: | -: |
 | KD Tree（K=5） | 0.021|0.089| 1256.76| 0.842 |
-| Ball Tree (K=5)| 0.931|0.063| 869.01 | 0.815 |
+| Ball Tree (K=5)| 0.994|0.049| 643.13 | 0.842 |
 
 
 
