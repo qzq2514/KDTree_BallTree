@@ -6,8 +6,8 @@ import time
 allow_duplicate = False
 def load_data(csv_path):
     data = pd.read_csv(csv_path,sep=";")
-    data = data.sample(frac=1)
-    data = data.reset_index(drop=True)
+    # data = data.sample(frac=1)
+    # data = data.reset_index(drop=True)
     label = data["quality"]
     data = data.drop(["quality"], axis=1)
     return data.values,label,data.columns.values
